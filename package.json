@@ -1,5 +1,5 @@
 {
-  "name": "stylelint-config-pixel2html",
+  "name": "@pixel2html/stylelint-config",
   "version": "1.1.0",
   "description": "SCSS Recommendations from Pixel2HTML",
   "main": "index.js",
