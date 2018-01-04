@@ -1,6 +1,6 @@
 {
   "name": "@pixel2html/stylelint-config",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "SCSS Recommendations from Pixel2HTML",
   "main": "index.js",
   "repository": "mike3run/stylelint-config-timmy-scss",
