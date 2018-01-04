@@ -13,7 +13,7 @@ If you're using our [Frontend Boilerplate](https://github.com/Pixel2HTML/pixel2h
 ## Manual Installation
 
 ```bash
-npm install stylelint stylelint-config-pixel2html --save-dev
+npm install stylelint @pixel2html/stylelint-config --save-dev
 ```
 
 ## Usage
@@ -22,7 +22,7 @@ Just set your stylelint config to:
 
 ```json
 {
-  "extends": "stylelint-config-pixel2html"
+  "extends": "@pixel2html/stylelint-config"
 }
 ```
 
@@ -34,7 +34,7 @@ For example, to turn off the `block-no-empty` rule, and add the `unit-whitelist`
 
 ```json
 {
-  "extends": "stylelint-config-recommended-scss",
+  "extends": "@pixel2html/stylelint-config",
   "rules": {
     "block-no-empty": null,
     "unit-whitelist": ["em", "rem", "s"]
