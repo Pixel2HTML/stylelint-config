@@ -1,13 +1,4 @@
-const BROWSERS = [
-  'last 2 Chrome versions',
-  'last 2 ChromeAndroid versions',
-  'last 2 Firefox versions',
-  'last 2 Safari versions',
-  'last 2 ios versions',
-  'last 2 edge versions',
-  'last 2 ie versions',
-  'last 2 Opera versions'
-]
+const browsers = require('@pixel2html/browserlist')
 
 module.exports = {
   extends: 'stylelint-config-recommended-scss',
@@ -20,7 +11,7 @@ module.exports = {
     'plugin/no-unsupported-browser-features': [
       true,
       {
-        'browsers': BROWSERS,
+        'browsers': browsers,
         'ignore': ['rem'],
         'severity': 'warning'
       }
@@ -33,7 +24,8 @@ module.exports = {
         'export',
         'import',
         'global',
-        'local'
+        'local',
+        'composes'
       ]
     }]
   }
