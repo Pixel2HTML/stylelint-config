@@ -18,10 +18,5 @@ module.exports = {
         'compose-with',
       ],
     }],
-    'at-rule-no-unknown': [ true, {
-      ignoreAtRules: [
-        'value',
-      ],
-    }],
   }
 }
